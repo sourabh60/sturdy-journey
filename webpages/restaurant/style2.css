@@ -1,0 +1,92 @@
+body {
+    
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+     background-size: cover;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60')
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+
+header li {
+    margin-left: 20px;
+    
+}
+
+header a {
+    
+    color: black;
+    
+    border-style:hidden;
+     border-left: 6px solid red;
+}
+
+li{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-size: cover;
+    padding: 20px;
+    max-width: 100%;
+  height: auto;
+}
+
+
+
+section h2 {
+    font-size: 2.5em;
+    text-decoration:underline overline;
+    text-align: center;
+        
+}
+
+section h3 {
+    font-size: 1.5em;
+    text-decoration:underline overline;
+     text-align: center;
+}
+
+section h4 {
+    font-size: 1.5em;
+    text-decoration:underline;
+     text-align: center;
+}
+section p {
+   
+     text-align: center;
+    
+}
+
+section form {
+   
+     text-align: center;
+    float: center;
+    
+}
+footer a{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
